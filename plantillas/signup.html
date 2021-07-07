@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--BOOTSTRAP OFFLINE-->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+    <!-- CSS personal-->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+     <!--iconos-->
+    <link rel="shortcut icon" href="../static/img/favicon.ico">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/all.min.css')}}">
+
+    <title>signup</title>
+</head>
+<body>
+
+    div class="container content-center ">
+        <div class="card" style="width: 18rem;">
+            <img src="{{url_for('static', filename='img/logo.png')}}" style="width: 80%;" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">SignUp</h5>
+              <p class="card-text">
+<form method="POST" action="{{url_for('signup')}}">
+    <p><input name="username" type="text"></p>
+    <p><input name="password" type="password"></p>
+    <input type="submit" value="registrar">
+</form>
+</p>
+              
+</div>
+</div>
+
+</div>
+<!--JavaScript -jQuery first, then Popper.js, then Bootstrap JS-->
+<script src="{{url_for('static',filename='js/jquery-3.4.1.min.js')}}"></script>
+<script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+<script src="{{url_for('static',filename='js/popper.min.js')}}"></script>
+<!--my javascript personnales -->
+<script src="{{url_for('static',filename='js/main.js')}}"></script>
+<!--SCROLLREVEAL-->
+<script src="{{url_for('static',filename='js/scrollreveal.min.js')}}"></script>
+</body>
+</html>
+

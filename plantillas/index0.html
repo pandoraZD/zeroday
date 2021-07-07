@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--BOOTSTRAP OFFLINE-->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+    <!-- CSS personal-->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+     <!--iconos-->
+    <link rel="shortcut icon" href="../static/img/favicon.ico">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/all.min.css')}}">
+
+    <title>home</title>
+</head>
+<body>
+    <div id="body" class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="/static/img/logo.png" style="width: 20%;">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <!--carrucel de baner informacion publicidad -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="text-center team">
+        <div class="container p-5">
+          <h1 class="text-center text-white">somos</h1>
+          <p class="text-black">
+            Adipisicing unde eum odio aliquam dolor ad voluptas expedita consequuntur aperiam inventore eaque. Dolorum facilis aut eum a delectus. Fugit velit quas harum quisquam amet provident inventore. Repudiandae repudiandae delectus.
+          </p>
+          <div class="row">
+            <!-- USER TEAM -->
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <img src="/static/img/adv1.jpg" class="img-fluid rounded-circle w-50">
+                  <h3>John Carter</h3>
+                  <p>
+                    Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!
+                  </p>
+                  <div class="d-flex flex-row justify-content-center">
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/person.png" class="img-fluid rounded-circle w-50">
+                  <h3>John Carter</h3>
+                  <p>
+                    Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!
+                  </p>
+                  <div class="d-flex flex-row justify-content-center">
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/person.png" class="img-fluid rounded-circle w-50">
+                  <h3>John Carter</h3>
+                  <p>
+                    Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!
+                  </p>
+                  <div class="d-flex flex-row justify-content-center">
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/person.png" class="img-fluid rounded-circle w-50">
+                  <h3>John Carter</h3>
+                  <p>
+                    Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!
+                  </p>
+                  <div class="d-flex flex-row justify-content-center">
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="p-4">
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container p-3">
+          <div class="row text-center text-black">
+            <div class="col ml-auto">
+              <p>Copyright &copy; 2021</p>
+            </div>
+          </div>
+        </div>       
+      </footer>
+</div>
+<!--JavaScript -jQuery first, then Popper.js, then Bootstrap JS-->
+<script src="{{url_for('static',filename='js/jquery-3.4.1.min.js')}}"></script>
+<script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+<script src="{{url_for('static',filename='js/popper.min.js')}}"></script>
+<!--my javascript personnales -->
+<script src="{{url_for('static',filename='js/main.js')}}"></script>
+<!--SCROLLREVEAL-->
+<script src="{{url_for('static',filename='js/scrollreveal.min.js')}}"></script>
+</body>
+</html>
+
